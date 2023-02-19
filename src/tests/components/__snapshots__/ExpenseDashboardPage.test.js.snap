@@ -18,14 +18,22 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        "This is from my dashboard component!",
+        <Connect(ExpensesSummary) />,
         <Connect(ExpenseListFilters) />,
         <Connect(ExpenseList) />,
       ],
     },
     "ref": null,
     "rendered": Array [
-      "This is from my dashboard component!",
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
       Object {
         "instance": null,
         "key": undefined,
@@ -54,14 +62,22 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          "This is from my dashboard component!",
+          <Connect(ExpensesSummary) />,
           <Connect(ExpenseListFilters) />,
           <Connect(ExpenseList) />,
         ],
       },
       "ref": null,
       "rendered": Array [
-        "This is from my dashboard component!",
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
         Object {
           "instance": null,
           "key": undefined,
